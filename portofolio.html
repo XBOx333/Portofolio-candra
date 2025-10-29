@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Candra Wedas | Front-End Developer</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap');
+
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background: radial-gradient(circle at top left, #0f0c29, #302b63, #24243e);
+      color: #00ffff;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      text-align: center;
+      margin-top: 50px;
+      color: #ff00ff;
+      text-shadow: 0 0 10px #ff00ff, 0 0 30px #ff00ff;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: #00ffff;
+      text-shadow: 0 0 5px #00ffff;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 40px 20px;
+      background: rgba(0, 0, 0, 0.4);
+      border: 1px solid #00ffff;
+      border-radius: 12px;
+      box-shadow: 0 0 20px #0ff;
+      padding: 20px 30px;
+    }
+
+    .skills, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      border: 1px solid #ff00ff;
+      padding: 15px;
+      border-radius: 10px;
+      background: rgba(255, 0, 255, 0.1);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px #ff00ff;
+    }
+
+    a {
+      color: #00ffff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      color: #ff00ff;
+      text-shadow: 0 0 10px #ff00ff;
+    }
+
+    footer {
+      margin-top: auto;
+      padding: 20px;
+      text-align: center;
+      border-top: 1px solid #00ffff;
+    }
+
+    button {
+      background: none;
+      color: #00ffff;
+      border: 1px solid #00ffff;
+      border-radius: 10px;
+      padding: 10px 20px;
+      cursor: pointer;
+      transition: 0.3s;
+      text-shadow: 0 0 10px #00ffff;
+    }
+
+    button:hover {
+      background: #00ffff;
+      color: #0f0c29;
+      box-shadow: 0 0 20px #00ffff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Candra Wedas</h1>
+    <h2>Front-End Developer | Next.js | MySQL | Linux | GitHub</h2>
+  </header>
+
+  <section>
+    <h2>💡 Tentang Saya</h2>
+    <p>
+      Saya seorang Front-End Developer dengan spesialisasi dalam HTML dan Next.js.
+      Terbiasa menggunakan Linux dan GitHub untuk pengembangan proyek berbasis MySQL.
+      Fokus saya adalah menciptakan website modern bertema cyberpunk yang cepat dan interaktif.
+    </p>
+  </section>
+
+  <section>
+    <h2>🧩 Keahlian Utama</h2>
+    <div class="skills">
+      <div class="card">💻 HTML5 / CSS3 / JavaScript</div>
+      <div class="card">⚛️ Next.js / React</div>
+      <div class="card">🗄️ MySQL Database</div>
+      <div class="card">🐧 Linux / Terminal</div>
+      <div class="card">🔧 Git & GitHub</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>🚀 Proyek Unggulan</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Portfolio Cyberpunk</h3>
+        <p>Website pribadi dengan efek neon dan data dinamis dari MySQL.</p>
+        <a href="#">Lihat Proyek</a>
+      </div>
+      <div class="card">
+        <h3>Dashboard Data</h3>
+        <p>Dashboard Next.js untuk menampilkan data dari MySQL dalam bentuk chart.</p>
+        <a href="#">GitHub Repo</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>📞 Kontak</h2>
+    <p>Email: <a href="mailto:candrawedas10@gmail.com">candrawedas10@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/candrawedas">github.com/candrawedas</a></p>
+    <p>WhatsApp: <a href="https://wa.me/6289654445692">+62 89654445692</a></p>
+    <button>Hubungi Saya</button>
+  </section>
+
+  <footer>
+    © 2025 Candra Wedas — Dibuat dengan ❤️ 
+  </footer>
+</body>
+</html>
